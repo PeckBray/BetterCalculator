@@ -55,7 +55,7 @@ Module BetterCalculator
             problem = True
 
             While problem = True And userInput <> "Q" And userInput <> "q"
-                Console.WriteLine("Choose on of the following options" & vbNewLine & "1. Add" & vbNewLine & "2. Subtract" & vbNewLine & "3. Multiply" & vbNewLine & "4. Divide")
+                Console.WriteLine("Choose one of the following options" & vbNewLine & "1. Add" & vbNewLine & "2. Subtract" & vbNewLine & "3. Multiply" & vbNewLine & "4. Divide")
                 Try
                     userInput = Console.ReadLine()
                     operation = CInt(userInput)
